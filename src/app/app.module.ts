@@ -2,13 +2,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import {CoreModule} from './core/core.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -16,7 +18,6 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 
 // TODO: Add module structure with core module, shared module and feature modules and related routing modules
-// TODO: Add own navbar as component
 // TODO: Add redux, redux router, redux form, redux logging and redux devkit
 // TODO: Add own redux list store functionality
 // TODO: Add own redux dictionary
