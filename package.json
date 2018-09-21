@@ -11,6 +11,9 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-redux/form": "9.0.1",
+    "@angular-redux/router": "9.0.0",
+    "@angular-redux/store": "9.0.0",
     "@angular/animations": "6.0.3",
     "@angular/common": "6.0.3",
     "@angular/compiler": "6.0.3",
@@ -25,6 +28,9 @@
     "jquery": "3.3.1",
     "ngx-bootstrap": "^3.0.1",
     "popper.js": "1.14.3",
+    "redux": "4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.0.0",
     "rxjs": "6.0.0",
     "zone.js": "0.8.26"
   },

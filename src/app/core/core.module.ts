@@ -6,11 +6,17 @@ import { NavigationBarComponent } from './components/navigation-bar/navigation-b
 import { WelcomePageComponent } from './pages/welcome-page/welcome-page.component';
 import {CoreRoutingModule} from './core-routing.module';
 import {SharedModule} from '../shared/shared.module';
+import {StoreModule} from '../store/store.module';
+import {NgReduxRouterModule} from '@angular-redux/router';
+import {ExampleFeatureModule} from '../features/example-feature/example-feature.module';
 
 @NgModule({
   imports: [
     HttpClientModule,
+    NgReduxRouterModule.forRoot(),
+    StoreModule,
     SharedModule,
+    ExampleFeatureModule,
     CoreRoutingModule // CoreRoutingModule needs to be imported after all feature modules, to load wildcard route at last!!!
   ],
   declarations: [
