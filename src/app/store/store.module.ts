@@ -4,7 +4,7 @@ import {NgReduxRouter, NgReduxRouterModule, routerReducer} from '@angular-redux/
 import {AppState} from './state-model';
 import {composeReducers, defaultFormReducer, provideReduxForms} from '@angular-redux/form';
 import {environment} from '../../environments/environment';
-import {applyMiddleware, combineReducers, Reducer} from 'redux';
+import {combineReducers, Reducer} from 'redux';
 import logger from 'redux-logger';
 import {coreRootReducer} from '../core/redux/core.reducers';
 import {exampleFeatureReducer} from '../features/example-feature/redux/example-feature.reducers';
