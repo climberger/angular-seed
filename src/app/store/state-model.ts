@@ -5,3 +5,8 @@ export interface AppState {
   feature: ExampleFeatureState;
   core: CoreState;
 }
+
+export interface LightStore {
+  getState: Function;
+  dispatch: Function;
+}

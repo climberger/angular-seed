@@ -31,3 +31,5 @@ import {ExampleFeatureModule} from '../features/example-feature/example-feature.
   providers: []
 })
 export class CoreModule { }
+
+// TODO: add redux stuff to handle list states in core redux state

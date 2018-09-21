@@ -28,6 +28,7 @@
     "jquery": "3.3.1",
     "ngx-bootstrap": "^3.0.1",
     "popper.js": "1.14.3",
+    "ramda": "^0.25.0",
     "redux": "4.0.0",
     "redux-logger": "^3.0.6",
     "redux-observable": "^1.0.0",
